@@ -15,7 +15,7 @@ var (
 )
 
 func main() {
-    ptrFile, err := os.Open("example.txt")
+    ptrFile, err := os.Open("input.txt")
     if err != nil {
         log.Fatalf("while opening the file %q: %s", ptrFile.Name(), err)
     }
